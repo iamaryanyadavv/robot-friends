@@ -1,0 +1,35 @@
+.cardline{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+.cardshape{
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    box-shadow:  4px 4px 6px #392938;
+    border-radius: 25px;
+	text-align: center;
+    width: 300px;
+    margin: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: #DFA6C8;
+    transition: all 0.7s;
+}
+.cardshape:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.color {
+    border-top: solid;
+}
+.name:hover{
+    text-decoration: underline;
+    color: #363636;
+}
+.email:hover{
+    text-decoration: underline;
+    color: #363636;
+}
