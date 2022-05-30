@@ -1,0 +1,7 @@
+.scrollstyle{
+    border: 3px solid;
+    border-color: aliceblue;
+    overflow-y: scroll;
+    height: 72vh;
+    border-radius: 1rem;
+}
